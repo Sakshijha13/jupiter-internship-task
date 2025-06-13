@@ -26,7 +26,7 @@ Predict whether a customer's credit score will **increase**, **decrease**, or re
 
 ## 🧪 Model Training
 
-- Used: `RandomForestClassifier`
+- Tried multiple models: `RandomForestClassifier`, `LogisticRegression`, `SVC`, and `XGBoost`
 - Handled class imbalance using stratified sampling
 - Evaluated using:
   - Accuracy
